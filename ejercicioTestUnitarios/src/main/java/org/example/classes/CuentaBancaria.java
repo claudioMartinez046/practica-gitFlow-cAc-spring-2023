@@ -19,4 +19,12 @@ public class CuentaBancaria {
     public double getSaldo(){
         return saldo;
     }
+
+    public void setUsuario(Usuario titular) {
+        this.titular = titular;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 }
